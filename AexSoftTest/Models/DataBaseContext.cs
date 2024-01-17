@@ -20,10 +20,9 @@ namespace AexSoftTest.Models
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-        //C: \Users\Lisichka\source\repos\AexSoftTest\AexSoftTest\aexsoft.db
-            optionsBuilder.UseSqlite("Filename=\\aexsoft.db");
+            string dir = Directory.GetCurrentDirectory();
+            var path = Directory.GetParent(dir).Parent.Parent;
+            optionsBuilder.UseSqlite($"Filename={path}\\aexsoft.db");
         }
     }
-
-
 }
