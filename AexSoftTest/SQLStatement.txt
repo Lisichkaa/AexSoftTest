@@ -1,0 +1,8 @@
+SELECT Customers.Name as Customer,
+	   Managers.Name as Manager
+FROM Customers
+JOIN Managers ON Customers.ManagerID = Managers.ID
+JOIN Orders ON Orders.CustomerID = Customers.ID
+WHERE Orders.Date >= '2023-01-01'
+GROUP BY Customers.ID, Managers.ID 
+HAVING SUM(Orders.Amount) > 1000;
