@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AexSoftTest", "AexSoftTest\AexSoftTest.csproj", "{9002BA29-05FE-4CBE-82E6-9CF0FD3709A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9002BA29-05FE-4CBE-82E6-9CF0FD3709A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9002BA29-05FE-4CBE-82E6-9CF0FD3709A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9002BA29-05FE-4CBE-82E6-9CF0FD3709A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9002BA29-05FE-4CBE-82E6-9CF0FD3709A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EAF5D6B-6095-45F1-81FE-0C15F4AA68E9}
+	EndGlobalSection
+EndGlobal
